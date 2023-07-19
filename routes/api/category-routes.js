@@ -22,6 +22,9 @@ router.get('/:id', (req, res) => {
 
 router.post('/', (req, res) => {
   // create a new category
+  Category.findProduct({include:[Product]}).then(data) => {
+    res.json(data)
+  })
 });
 
 router.put('/:id', (req, res) => {
