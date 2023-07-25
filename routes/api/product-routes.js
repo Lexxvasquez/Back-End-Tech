@@ -100,6 +100,7 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
+  Product.delete({ where: { id: req.params.id }}).then(data=>res.json(data));
 });
 
 module.exports = router;
