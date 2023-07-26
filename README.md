@@ -6,8 +6,6 @@ This project will build out a fully functioning restful API backend utilizing No
 and MySQL as its primary technology stack. The goal here is not only to demonstrate
 proficiency but also provide guidance on how best to structure your code base so it's easy to maintain.
 
-
-
 ## Installation
 MySQL2, Sequelize, Dotenv Package, Package.Json
 
@@ -31,7 +29,9 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Usage
 
-## Links
-[Recorded Link]()
+![app](Screenshot 2023-07-25- 205655.jpg)
 
-[Github Repo]()
+## Links
+[Recorded Link](https://drive.google.com/file/d/1EdktciSXrIBH0JjPijqspmJ0uCNs87oZ/view)
+
+[Github Repo](https://github.com/Lexxvasquez/Back-End-Tech)
